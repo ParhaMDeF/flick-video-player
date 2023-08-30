@@ -1,0 +1,28 @@
+name: flick_video_player
+description: Flick Video Player is a video player for flutter. The video_player plugin gives low level access for the video playback.
+
+publish_to: 'none' 
+
+environment:
+  sdk: '>=2.14.0 <3.0.0'
+  flutter: '>=2.10.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  video_player: ^2.7.1
+  provider: ^6.0.5
+  wakelock: 
+    git:
+      url: https://github.com/ParhaMDeF/wakelock.git
+      ref: main
+  universal_html: ^2.2.3
+  dio: ^5.3.2
+  path_provider: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
